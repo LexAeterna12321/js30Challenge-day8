@@ -11,10 +11,21 @@
       padding: 0;
       overflow: hidden;
     }
+
+    h1 {
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      font-family: "Goudy Stout", sans-serif;
+      color: rgba(20, 100, 50, 0.7);
+      text-shadow: 0 0 1px #000;
+      z-index: -1;
+    }
   </style>
 </head>
 
 <body>
+  <h1>Hold mouse button to draw</h1>
   <canvas id="draw" width="800" height="800"></canvas>
   <script src="app.js">
   </script>
